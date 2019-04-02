@@ -13,12 +13,9 @@ __author__ = 'a'
 def primeNum(args):
     prime = []
     for i in range(2, args+1):
-        count = 0
         for j in range(2, i):
             if i % j == 0:
-                count += 1
-        if count > 0:
-            pass
+                break
         else:
             prime.append(i)
     print(prime)
