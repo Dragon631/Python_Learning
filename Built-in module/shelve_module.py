@@ -67,3 +67,4 @@ db.close()
 db = shelve.open("info.db")
 print(db['Adm'])
 db.close()
+
