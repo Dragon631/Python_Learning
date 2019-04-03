@@ -60,7 +60,7 @@ db.close()
 db = shelve.open("info.db")
 print(db['Tom'])
 print(db['Adm'])
-print(db.keys())
+print(db.items())
 # db.pop('Adm')
 db.close()
 
