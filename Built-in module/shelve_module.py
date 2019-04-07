@@ -17,22 +17,22 @@ Shelve是对象持久化保存方法，将对象保存到文件里面，缺省�
 
 import shelve
 
-"""
-user_info = [
-    ['Apple', '123456'],
-    ['Banana', '123456'],
-    ['cat', '123456']
-]
+# """
+user_info = {
+    'a':['Apple', '123456'],
+    'b':['Banana', '123456'],
+    'c':['cat', '123456']
+}
 
-infoFile = shelve.open('infoDb.txt')
-infoData = user_info
+infoFile = shelve.open('infoDb')
+infoFile['info'] = user_info
 infoFile.close()
 
-infoFile = shelve.open('infoDb.txt')
-print(infoData)
+infoFile = shelve.open('infoDb')
+data = infoFile['info']
+print(type(data))
+print(data)
 
-for i, v in enumerate(infoData):
-    print(infoData[i][0])
 """
 
 # 自定义类
@@ -68,3 +68,4 @@ db = shelve.open("info.db")
 print(db['Adm'])
 db.close()
 
+"""

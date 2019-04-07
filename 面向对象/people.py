@@ -31,8 +31,6 @@ class Staff(Company):
     def saysomething(self):
         print("Staff [%s] working for [%s] by [%s]." %(self.name,self.money,self.working))
 
-
-
 b = Boss('Shirley','F','Manager',33, 'Sales', 'develop new product')
 
 s = Staff('Saler', 'M', 'Saler', 23, 'Sales', 'Sale products')
