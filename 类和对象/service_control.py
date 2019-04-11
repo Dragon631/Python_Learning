@@ -51,6 +51,7 @@ if __name__ == "__main__":
     给object对象的name属性赋值value，如果对象原本存在给定的属性name，
     则setattr会更改属性的值为给定的value；如果对象原本不存在属性name，
     setattr会在对象中创建属性，并赋值为给定的value；
+    注意：name要加引号
     
     delattr(object, name)
     函数作用用来删除指定对象的指定名称的属性，和setattr函数作用相反,
