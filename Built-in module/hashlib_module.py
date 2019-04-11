@@ -12,7 +12,7 @@ __author__ = 'a'
 import hashlib
 
 # 加密字符串
-str = "cGnfs@2018."
+str = "Hello_world1"
 str2 = "大家好！我是中国人。"
 
 # md5加密字符串，不安全

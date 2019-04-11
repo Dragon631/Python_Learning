@@ -3,7 +3,7 @@
 
 import socket
 
-ip_port = ('127.0.0.1', 1111)
+ip_port = ('127.0.0.1', 3456)
 
 sk = socket.socket()
 # sk.connect(ip_port)
@@ -14,8 +14,8 @@ while True:
     print("Server waiting ...")
     conn, addr = sk.accept()
     client_data = conn.recv(1024)
-    print(str(client_data, 'utf-8'))
-    conn.sendall(bytes('请不要回答，请不要回答，请不要回答！！！', 'utf-8'))
+    print(client_data.decode())
+    conn.sendall(('请不要回答，请不要回答，请不要回答！！！').encode())
 
     conn.close()
 
