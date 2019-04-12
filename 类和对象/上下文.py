@@ -25,7 +25,7 @@ class Wallet(object):
 def usedMoney(name):
     return Wallet(name)
 
-with usedMoney('April') as used:
+with usedMoney('April') as u:
     print('Spend out $500.')
 # 方法一：end
 """
@@ -47,8 +47,8 @@ class Wallet(object):
         print('%s spend out %s dollar.' %(self.name, money))
 
 
-with Wallet('April') as w:
-    w.used_money(500)
+with Wallet('April') as u:
+    u.used_money(500)
 # 方法二：end
 """
 
@@ -66,3 +66,4 @@ def used_money(name):
 
 with used_money('April') as u:
     print('Spend out 500 dollars.')
+# 方法三：end
