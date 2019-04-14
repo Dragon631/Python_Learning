@@ -10,8 +10,6 @@
 import time
 import threading
 
-import args as args
-
 
 def sayhi(num):
     print("Running on number:%s" % num)
