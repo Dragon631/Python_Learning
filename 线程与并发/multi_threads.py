@@ -10,7 +10,7 @@
 import time
 import threading
 
-
+"""
 def sayhi(num):
     print("Running on number:%s" % num)
     time.sleep(3)
@@ -27,3 +27,25 @@ if __name__ == '__main__':
     print(t2.getName())
     t2.join()
     print("---main---")
+"""
+
+class ClockThread(threading.Thread):
+    def __init__(self,interval):
+        # threading.Thread.__init__(self) # 必须调用基类的构造函数，否则将导致严重错误
+        super().__init__()
+        self.interval = interval
+        self.daemon = True
+
+    def run(self):
+        while True:
+            print("Current time %s" % time.ctime())
+            time.sleep(self.interval)
+
+if __name__ == '__main__':
+    t1 = ClockThread(3)
+    t1.start()
+    t2 = ClockThread(3)
+    t2.start()
+    t2.join()
+
+

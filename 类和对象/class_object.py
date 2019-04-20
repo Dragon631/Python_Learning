@@ -38,7 +38,7 @@ print(a.name)
 # 类仅设置将在以后创建的所有实例都使用的属性
 # 在__init__()内，通过将属性分配给self来将其保存到实例中
 # 点（.）运算符用于属性绑定，通过点运算符访问相关属性
-""" """
+""" 
 class Account(object):
     num_accounts = 0 # 类变量是可在所有实例之间共享的值
     def __init__(self, name, balance):
@@ -58,4 +58,41 @@ class Account(object):
 a = Account("April",1000.00)
 b = Account("Bill",100.00)
 print(a.name)
+"""
 
+class room:
+    def __init__(self,area=120,usedfor='sleep'):
+        self.area = area
+        self.usedfor = usedfor
+
+    def display(self):
+        print("this is my house")
+
+class babyroom(room):
+    def __init__(self,area=40,usedfor="son",wallcolor='green'):
+        super().__init__(area, usedfor)
+        self.wallcolr = wallcolor
+
+    def display(self):
+        super().display()
+        print("babyroom area:%s wallcollor:%s" % (self.area,self.wallcolr))
+
+class rent:
+    def __init__(self,money=1000):
+        self.rentmoney = money
+
+    def display(self):
+        print("for rent at the price of %s"%self.rentmoney)
+
+class agent(babyroom,rent):
+# class agent(rent,babyroom):
+    def display(self):
+        super().display()
+        print("rent house agent")
+
+agent().display()
+
+# 结果：
+# this is my house # 调用root(babyroom.diaplay())
+# babyroom area:40 wallcollor:green
+# rent house agent
