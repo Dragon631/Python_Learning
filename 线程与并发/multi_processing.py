@@ -16,6 +16,7 @@
 # 进程类描述：Process([group [, target [, name [, args[, kwargs]]]]])
 # group参数未使用，值为None
 # targe是当进程启动时执行的可调用对象
+# name是为进程制定描述性名称的字符串
 # args是传递给target的位置参数的元组
 # kwargs是传递给target的关键字参数的字典
 import multiprocessing
@@ -27,13 +28,17 @@ def clock(interval):
         time.sleep(interval)
 
 if __name__ =="__main__":
-    p = multiprocessing.Process(target=clock, args=(15,))  # args参数须为元组类型
+    p = multiprocessing.Process(target=clock, name='test111', args=(3,))  # args参数须为元组类型
     p.start() #启动进程，运行代表进程的子进程，并调用该子进程中的p.run()函数
+    n = p.name
+    print("%s starting ..." % n)
 """
 
 # -*- multiprocessing 【案例2】-*- #
 # 说明：
 # 将进程定义为继承自Process的类
+# p.run()是进程启动时运行的方法，默认情况下会调用传递给Process构造函数的target方法
+# 定义进程的另一种方法是继承Process类并重新实现run()函数
 """
 import multiprocessing
 import time
@@ -44,24 +49,23 @@ class ClockProcess(multiprocessing.Process):
         super().__init__()  # python3 新型写法：super().xxx xxx为父类方法或属性
         self.interval = interval
 
-    def run(self):
+    def run(self): # 必须重写run()方法，否则将无法运行
         while True:
             print('The time is %s' % time.ctime())
             time.sleep(self.interval)
 
 if __name__ == '__main__':
-    p = ClockProcess(15)
+    p = ClockProcess(3)
     p.start()
 
 # 为了实现跨平台的可移植性，只能像以上方式由主程序创建新的进程
 # 这在Unix上可选，但Windows上是必须的
 """
 
-
 # -*- multiprocessing 【案例3】-*- #
 # 说明：
 # 进程间通信：管道和队列
-# 以下例子说明如何建立永远运行的进程，使用和处理队列上的羡慕
+# 以下例子说明如何建立永远运行的进程，使用和处理队列上的项目
 # 生产者将项目放入队列，并等待它们被处理
 """
 import multiprocessing

@@ -6,7 +6,7 @@
 # 说明：
 # 在生成器函数内部，在yield语句上出现GeneratorExit异常时就会调用close()方法
 # 可以选择捕捉这个异常，以便执行清理操作。
-# 以下实例：无法返回返回生成器迭代值
+# 以下实例：无法返回生成器迭代值
 """
 # 虽然可以捕捉GeneratorExit异常，
 # 但生成器函数处理异常并使用yield语句生成另一个输出值是不合法的。
@@ -47,6 +47,8 @@ def receiver():
 r = receiver()
 r.__next__()    # 向前执行到第一条yield语句（必须）
 r.send("What's up gays.")
+r.send("What's up gays again.")
+
 # 执行过程：
 # 1.对__next__()初始调用，这是必不可少的，
 #   这样协程才能执行可通过第一个yield表达式的语句，在这里协程会挂起，
@@ -178,6 +180,3 @@ with open("test.sh",'r') as f:
     # for l in clist:
     #     print(l)
 """
-
-str = "abc"
-print(str[0])
