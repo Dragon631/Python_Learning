@@ -168,7 +168,8 @@ print(b.__next__())
 # 但是，使用内置的list()函数可以将生成器表达式转换为列表
 
 """
-with open("test.sh",'r') as f:
+# 只打印注释行
+with open("log",'r') as f:
     lines = (t.strip() for t in f)
     comments = (t for t in lines if t[0:1] == "#")  # 因为使用"GBK"编号，所以每个字符占用两个字节
     # clist = list(comments) # 转换为list列表
@@ -180,3 +181,5 @@ with open("test.sh",'r') as f:
     # for l in clist:
     #     print(l)
 """
+
+
