@@ -339,7 +339,6 @@ def comput_digest(filename):
     f.close()
     return filename, digest.digest()
 
-
 def build_digest_map(topdir):
     digest_pool = multiprocessing.Pool(POOLSIZE)
     # 使用生成器表达式指定一个目录中的所有文件的路径名称序列
@@ -352,7 +351,6 @@ def build_digest_map(topdir):
     digest_map = dict(digest_pool.imap_unordered(comput_digest, allfiles, 20)) # 返回迭代器(生成器)
     digest_pool.close()
     return digest_map
-
 
 # 尝试按照需要修改目录名称
 if __name__ == '__main__':
@@ -665,4 +663,47 @@ print(r)
 
 conn.close()
 """
+
+"""
+from multiprocessing import Pool
+import random
+import time
+import os
+
+
+def worker(num):
+    for i in range(3):
+        print("=====pid[%d]===task:%d" % (os.getpid(), num))
+        time.sleep(1)
+
+if __name__ == '__main__':
+    pool = Pool(3)
+
+    for i in range(10):
+        print("=====%d=====" % i)
+        pool.apply_async(worker, (i,))
+
+    pool.close()
+    pool.join()
+"""
+
+
+import threading
+from time import sleep
+
+def func():
+    block.acquire()
+    print("The Thread of %s" % threading.get_ident())
+    sleep(2)
+    block.release()
+
+
+if __name__ == '__main__':
+    block = threading.BoundedSemaphore(5)
+    for i in range(20):
+        t = threading.Thread(target=func)
+        t.start()
+
+
+
 

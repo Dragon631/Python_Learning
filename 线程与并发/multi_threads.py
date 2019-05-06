@@ -144,4 +144,66 @@ if __name__ == '__main__':
     c3.start()
 """
 
+"""
+# Semaphore([value])
+# value为计数器初始值，省略参数则将值置为1
+# 每次调用acquire()方法时，计数器减1；每次调用release()方法时，计数器加1
+# 计数器为0时，acquire()方法将阻塞，直到其他线程调用release()方法为止
+
+import threading
+import time
+import random
+
+semaphore = threading.Semaphore(0)
+
+def consumer():
+    print("consumer is waiting.")
+    semaphore.acquire()
+    print("Consumer notify: consumed item number %s." % item)
+
+def producer():
+    global item
+    time.sleep(2)
+    item = random.randint(1, 1000)
+    print("producer nofity: produced item number %s." % item)
+    semaphore.release()
+
+
+
+if __name__ == "__main__":
+
+    for i in range(0, 5):
+        t1 = threading.Thread(target=producer)
+        t2 = threading.Thread(target=consumer)
+        t1.start()
+        t2.start()
+        t1.join()
+        t2.join()
+    print("program teminated.")
+"""
+
+import threading, time
+
+
+def run(n):
+    semaphore.acquire()
+    time.sleep(1)
+    print("Active_count: %d, Run the thread:%d => %d" % (threading.active_count(),threading.get_ident(),n))
+    semaphore.release()
+
+
+if __name__ == '__main__':
+
+    num = 0
+    semaphore = threading.BoundedSemaphore(2)
+
+    for i in range(1,21):
+        # time.sleep(1)
+        t = threading.Thread(target=run, args=(i,))
+        t.start()
+
+while threading.active_count() != 1:
+    pass
+else:
+    print("---------all threads done---------")
 
