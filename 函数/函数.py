@@ -420,3 +420,29 @@ while True:
 """
 
 
+def factorial(argv):
+    result = argv
+    for i in range(1,argv,1):
+        result *= i
+    print("i:", result)
+    # result = 0
+
+    # return result
+
+# factorial(333)
+
+import random
+def sorted(n):
+    data = [1,5,2,10,2,3]
+    # print(data[1])
+    for i in range(0,len(data)):
+        for j in range(i, len(data)):
+            if data[i] > data[j]:
+                # data[i], data[j] = data[j], data[i]
+                t = data[i]
+                data[i] = data[j]
+                data[j] = t
+    for i in range(0, len(data)) :
+        print(data[i], end=" ")
+
+sorted(10)

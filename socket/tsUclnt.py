@@ -16,8 +16,8 @@ cs.close()                          # 关闭客户端套接字
 """
 from socket import *
 
-HOST = 'localhost'
-PORT = 12579
+HOST = '192.168.100.65'
+PORT = 8080
 BUFSIZ = 1024
 ADDR = (HOST, PORT)
 udpCliSock = socket(AF_INET, SOCK_DGRAM)

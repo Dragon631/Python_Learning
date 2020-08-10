@@ -13,13 +13,13 @@ class Person(object):
         self.hp = 100
         self.gun = None  # 保存对枪的引用
 
-    # 装弹夹，将弹夹装上枪杆子上
-    def loading_bullet_clip(self, gun_tmp, bullet_clip_tmp):
-        gun_tmp.load_clip(bullet_clip_tmp)
-
     # 装子弹，将子弹装进弹夹中
     def loading_bullet(self, bullet_clip_tmp, bullet_tmp):
         bullet_clip_tmp.load_bullet(bullet_tmp)
+
+    # 装弹夹，将弹夹装上枪杆子上
+    def loading_bullet_clip(self, gun_tmp, bullet_clip_tmp):
+        gun_tmp.load_clip(bullet_clip_tmp)
 
     # 拿枪，将枪的信息保存到拿枪人身上
     def hold_gun(self, gun_tmp):
@@ -66,9 +66,9 @@ class BulletClip(object):
     #  弹夹装子弹，保存在弹夹中的子弹列表中
     def load_bullet(self, bullet_tmp):
         if len(self.bullet_list) < self.max_num:
-            return self.bullet_list.append(bullet_tmp)
+            self.bullet_list.append(bullet_tmp)
         else:
-            return self.bullet_list
+            print("弹夹已装满")
 
     def pop_up_bullet(self):
         if self.bullet_list:
@@ -86,6 +86,11 @@ class Bullet(object):
     def hit_enemy(self, enemy):
         enemy.injure(self.power)
 
+
+class test(object):
+    pass
+
+
 def main():
     # 创建老王
     laowang = Person("laowang")
@@ -96,14 +101,16 @@ def main():
     # 创建弹夹，子弹量
     bullet_clip = BulletClip(20)
 
-    # 创建子弹，威力值 10
-    bullet = Bullet(10)
+    for i in range(30):
+        # 创建子弹，威力值 10
+        bullet = Bullet(10)
+        # 老王装子弹，将子弹装到弹夹里
+        laowang.loading_bullet(bullet_clip, bullet)
 
     # 老王安装弹夹，将弹夹装(保存)到枪上
-    laowang.loading_bullet_clip(ak47, bullet)
+    laowang.loading_bullet_clip(ak47, bullet_clip)
 
-    # 老王装子弹，将子弹装到弹夹里
-    laowang.loading_bullet(bullet_clip, bullet)
+
 
     # 老王拿枪
     laowang.hold_gun(ak47)
@@ -113,11 +120,21 @@ def main():
 
     # 老王开枪，开枪打小李
     laowang.shoot(xiaoli)
+    laowang.shoot(xiaoli)
+    laowang.shoot(xiaoli)
+    laowang.shoot(xiaoli)
+    laowang.shoot(xiaoli)
+    laowang.shoot(xiaoli)
+    laowang.shoot(xiaoli)
+    laowang.shoot(xiaoli)
+    laowang.shoot(xiaoli)
+    laowang.shoot(xiaoli)
+    laowang.shoot(xiaoli)
 
     print(laowang)
     print(xiaoli)
 
-    # print(bullet_clip)
+    print(bullet_clip)
 
 
 if __name__ == "__main__":

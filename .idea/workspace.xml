@@ -1,24 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/线程与并发/multi_processing.py" line="723" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="96c2d500-da9f-4d52-8638-a75851b126bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Built-in module/configparser_encapsulation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Built-in module/mysql.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Built-in module/new 4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Built-in module/pkdFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/线程与并发/红绿灯.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/装饰器与生成器/log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/锁/tmp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/锁/同步锁.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python_Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log" beforeDir="false" afterPath="$PROJECT_DIR$/log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/线程与并发/multi_threads.py" beforeDir="false" afterPath="$PROJECT_DIR$/线程与并发/multi_threads.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/线程与并发/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/线程与并发/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/装饰器与生成器/base_yield.py" beforeDir="false" afterPath="$PROJECT_DIR$/装饰器与生成器/base_yield.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jumpserver/apps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jumpserver/apps/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/.idea/Django_Projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/.idea/libraries/Django_Lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/cookie_session/.idea/cookie_session.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/cookie_session/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/cookie_session/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/cookie_session/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/cookie_session/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/cookie_session/mysite/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/cookie_session/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/cookie_session/templates/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/cookie_session/templates/shopping.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/test1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/test1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/test1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/test1/.idea/test1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/test1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/test1/booktest/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/test1/templates/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/test1/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/test1/templates/disp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/test1/templates/index_t.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/test1/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_Projects/test1/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,121 +41,161 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Python_Learning$hashlib_module.coverage" NAME="hashlib_module Coverage Results" MODIFIED="1554282899498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Built-in module" />
-    <SUITE FILE_PATH="coverage/Python_Learning$socket_client.coverage" NAME="socket_client Coverage Results" MODIFIED="1554813554531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
-    <SUITE FILE_PATH="coverage/Python_Learning$tsUclnt.coverage" NAME="tsUclnt Coverage Results" MODIFIED="1554817586759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
-    <SUITE FILE_PATH="coverage/Python_Learning$configparser_module.coverage" NAME="configparser_module Coverage Results" MODIFIED="1554780280424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Built-in module" />
+    <SUITE FILE_PATH="coverage/Python_Learning$server.coverage" NAME="server Coverage Results" MODIFIED="1562814510392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Web_Server/WGSI" />
+    <SUITE FILE_PATH="coverage/Python_Learning$010_.coverage" NAME="实例010_给人看的时间 Coverage Results" MODIFIED="1590540919737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/简单实例100个" />
+    <SUITE FILE_PATH="coverage/Python_Learning$15_socket_udp_client.coverage" NAME="15-socket-基于udp广播的多人聊天室-client Coverage Results" MODIFIED="1561016854432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
+    <SUITE FILE_PATH="coverage/Python_Learning$09_socket_udp_client.coverage" NAME="09-socket-udp广播-client Coverage Results" MODIFIED="1560999705571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
     <SUITE FILE_PATH="coverage/Python_Learning$tsTserv.coverage" NAME="tsTserv Coverage Results" MODIFIED="1554813874426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
-    <SUITE FILE_PATH="coverage/Python_Learning$tsUserv.coverage" NAME="tsUserv Coverage Results" MODIFIED="1554817583246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
-    <SUITE FILE_PATH="coverage/Python_Learning$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1555985779862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../jumpserver/apps" />
-    <SUITE FILE_PATH="coverage/Python_Learning$3.coverage" NAME="多装饰器3 Coverage Results" MODIFIED="1554876417803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/装饰器" />
     <SUITE FILE_PATH="coverage/Python_Learning$json_module.coverage" NAME="json_module Coverage Results" MODIFIED="1554780671322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Built-in module" />
-    <SUITE FILE_PATH="coverage/Python_Learning$multi_processing.coverage" NAME="multi_processing Coverage Results" MODIFIED="1555804772831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/线程与并发" />
-    <SUITE FILE_PATH="coverage/Python_Learning$basic_test.coverage" NAME="basic_test Coverage Results" MODIFIED="1554972663723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类和对象" />
-    <SUITE FILE_PATH="coverage/Python_Learning$2.coverage" NAME="多装饰器2 Coverage Results" MODIFIED="1554877210140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/装饰器" />
-    <SUITE FILE_PATH="coverage/Python_Learning$socket_client2.coverage" NAME="socket_client2 Coverage Results" MODIFIED="1554802863692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
+    <SUITE FILE_PATH="coverage/Python_Learning$multi_processing.coverage" NAME="multi_processing Coverage Results" MODIFIED="1560157622068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/线程与并发" />
+    <SUITE FILE_PATH="coverage/Python_Learning$04_process_manager.coverage" NAME="04-process-manager Coverage Results" MODIFIED="1559560468287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/线程与并发" />
+    <SUITE FILE_PATH="coverage/Python_Learning$003_.coverage" NAME="实例003_完全平方数 Coverage Results" MODIFIED="1589948237146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/简单实例100个" />
+    <SUITE FILE_PATH="coverage/Python_Learning$09_socket_udp_server.coverage" NAME="09-socket-udp广播-server Coverage Results" MODIFIED="1560999699077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
+    <SUITE FILE_PATH="coverage/Python_Learning$shelve_module.coverage" NAME="shelve_module Coverage Results" MODIFIED="1554189170692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/内置模块" />
+    <SUITE FILE_PATH="coverage/Python_Learning$_bug.coverage" NAME="老王开枪-bug Coverage Results" MODIFIED="1557200673181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类和对象" />
+    <SUITE FILE_PATH="coverage/Python_Learning$16_socket_tcp_sender.coverage" NAME="16-socket-tcp-sender Coverage Results" MODIFIED="1561078870816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
+    <SUITE FILE_PATH="coverage/Python_Learning$soket_server.coverage" NAME="soket_server Coverage Results" MODIFIED="1554813529771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
+    <SUITE FILE_PATH="coverage/Python_Learning$09_socket_udp.coverage" NAME="09-socket-udp广播 Coverage Results" MODIFIED="1560997279901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
+    <SUITE FILE_PATH="coverage/Python_Learning$plot.coverage" NAME="plot Coverage Results" MODIFIED="1577171658271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/函数" />
+    <SUITE FILE_PATH="coverage/Python_Learning$tsTclntSS.coverage" NAME="tsTclntSS Coverage Results" MODIFIED="1554819588209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
+    <SUITE FILE_PATH="coverage/Python_Learning$02_socket_udp_.coverage" NAME="02-socket-udp-多线程聊天 Coverage Results" MODIFIED="1560391997727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
+    <SUITE FILE_PATH="coverage/Python_Learning$20_socket_tcp_.coverage" NAME="20-socket-tcp-多进程 Coverage Results" MODIFIED="1561108243909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
+    <SUITE FILE_PATH="coverage/Python_Learning$06_socket_udp_.coverage" NAME="06-socket-udp-多线程聊天 Coverage Results" MODIFIED="1561020963188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
+    <SUITE FILE_PATH="coverage/Python_Learning$002_.coverage" NAME="实例002_个税计算 Coverage Results" MODIFIED="1589880002886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/简单实例100个" />
+    <SUITE FILE_PATH="coverage/Python_Learning$03_socket_Tftpd.coverage" NAME="03-socket-Tftpd下载器 Coverage Results" MODIFIED="1560474910503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
+    <SUITE FILE_PATH="coverage/Python_Learning$21_thread_Rlock_test.coverage" NAME="21-thread-Rlock-test Coverage Results" MODIFIED="1559717949337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/线程与并发" />
+    <SUITE FILE_PATH="coverage/Python_Learning$configparser_encapsulation.coverage" NAME="configparser_encapsulation Coverage Results" MODIFIED="1554780587554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Built-in module" />
+    <SUITE FILE_PATH="coverage/Python_Learning$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1554964037878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Learning$009_.coverage" NAME="实例009_暂停一秒输出 Coverage Results" MODIFIED="1590540001790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/简单实例100个" />
+    <SUITE FILE_PATH="coverage/Python_Learning$socket_client.coverage" NAME="socket_client Coverage Results" MODIFIED="1554813554531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
+    <SUITE FILE_PATH="coverage/Python_Learning$004_.coverage" NAME="实例004_这天第几天 Coverage Results" MODIFIED="1590052852749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/简单实例100个" />
+    <SUITE FILE_PATH="coverage/Python_Learning$01_yield_.coverage" NAME="01-yield-多任务 Coverage Results" MODIFIED="1560327193508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/装饰器与生成器" />
+    <SUITE FILE_PATH="coverage/Python_Learning$basic_test.coverage" NAME="basic_test Coverage Results" MODIFIED="1557048707935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类和对象" />
+    <SUITE FILE_PATH="coverage/Python_Learning$001_.coverage" NAME="实例001_数字组合 Coverage Results" MODIFIED="1589789704756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/简单实例100个" />
     <SUITE FILE_PATH="coverage/Python_Learning$conn_server.coverage" NAME="conn_server Coverage Results" MODIFIED="1555510518820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类和对象" />
     <SUITE FILE_PATH="coverage/Python_Learning$diff_num.coverage" NAME="diff_num Coverage Results" MODIFIED="1554964091831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Learning$WebServer.coverage" NAME="WebServer Coverage Results" MODIFIED="1563541234512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MyWebFramwork" />
     <SUITE FILE_PATH="coverage/Python_Learning$login_test.coverage" NAME="login_test Coverage Results" MODIFIED="1554260682493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Built-in module" />
-    <SUITE FILE_PATH="coverage/Python_Learning$tsTservSS.coverage" NAME="tsTservSS Coverage Results" MODIFIED="1554819584059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
-    <SUITE FILE_PATH="coverage/Python_Learning$multi_threads.coverage" NAME="multi_threads Coverage Results" MODIFIED="1556024976651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/线程与并发" />
+    <SUITE FILE_PATH="coverage/Python_Learning$011_.coverage" NAME="实例011_养兔子 Coverage Results" MODIFIED="1590651224528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/简单实例100个" />
+    <SUITE FILE_PATH="coverage/Python_Learning$old_wang_shoot.coverage" NAME="old_wang_shoot Coverage Results" MODIFIED="1557150481112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类和对象" />
     <SUITE FILE_PATH="coverage/Python_Learning$test.coverage" NAME="test Coverage Results" MODIFIED="1556005031578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/线程与并发" />
-    <SUITE FILE_PATH="coverage/Python_Learning$shelve_module.coverage" NAME="shelve_module Coverage Results" MODIFIED="1554189170692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/内置模块" />
+    <SUITE FILE_PATH="coverage/Python_Learning$21_socket_tcp_.coverage" NAME="21-socket-tcp-多线程 Coverage Results" MODIFIED="1561109306520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
+    <SUITE FILE_PATH="coverage/Python_Learning$05_socket_udp_recvdata.coverage" NAME="05-socket-udp-recvdata Coverage Results" MODIFIED="1561018410539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
     <SUITE FILE_PATH="coverage/Python_Learning$shelve_module__1_.coverage" NAME="shelve_module (1) Coverage Results" MODIFIED="1554192508715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Built-in module" />
-    <SUITE FILE_PATH="coverage/Python_Learning$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1554972058376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类和对象" />
-    <SUITE FILE_PATH="coverage/Python_Learning$mysql_ops.coverage" NAME="mysql_ops Coverage Results" MODIFIED="1554964078860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Learning$10_socket_udp2.coverage" NAME="10-socket-udp广播2 Coverage Results" MODIFIED="1560997883295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
     <SUITE FILE_PATH="coverage/Python_Learning$logger_module.coverage" NAME="logger_module Coverage Results" MODIFIED="1554904212792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Built-in module" />
-    <SUITE FILE_PATH="coverage/Python_Learning$soket_server.coverage" NAME="soket_server Coverage Results" MODIFIED="1554813529771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
-    <SUITE FILE_PATH="coverage/Python_Learning$.coverage" NAME="同步锁 Coverage Results" MODIFIED="1556072063054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/锁" />
-    <SUITE FILE_PATH="coverage/Python_Learning$pickle_module.coverage" NAME="pickle_module Coverage Results" MODIFIED="1555730730974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Built-in module" />
-    <SUITE FILE_PATH="coverage/Python_Learning$tsTclntSS.coverage" NAME="tsTclntSS Coverage Results" MODIFIED="1554819588209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
+    <SUITE FILE_PATH="coverage/Python_Learning$queue_emples1.coverage" NAME="queue_emples1 Coverage Results" MODIFIED="1556419625814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/队列" />
     <SUITE FILE_PATH="coverage/Python_Learning$conn_client.coverage" NAME="conn_client Coverage Results" MODIFIED="1555510582534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类和对象" />
     <SUITE FILE_PATH="coverage/Python_Learning$base_yield.coverage" NAME="base_yield Coverage Results" MODIFIED="1555899173476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/装饰器与生成器" />
     <SUITE FILE_PATH="coverage/Python_Learning$chat_client.coverage" NAME="chat_client Coverage Results" MODIFIED="1555656651963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
     <SUITE FILE_PATH="coverage/Python_Learning$subprocess_module.coverage" NAME="subprocess_module Coverage Results" MODIFIED="1555730807990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Built-in module" />
-    <SUITE FILE_PATH="coverage/Python_Learning$class_object.coverage" NAME="class_object Coverage Results" MODIFIED="1555731117500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类和对象" />
-    <SUITE FILE_PATH="coverage/Python_Learning$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1554975729019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类和对象" />
+    <SUITE FILE_PATH="coverage/Python_Learning$10_socket_udp.coverage" NAME="10-socket-基于udp广播的多人聊天室 Coverage Results" MODIFIED="1561015818368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
+    <SUITE FILE_PATH="coverage/Python_Learning$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1558943871448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类和对象" />
+    <SUITE FILE_PATH="coverage/Python_Learning$1.coverage" NAME="死锁1 Coverage Results" MODIFIED="1560223610070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/锁" />
     <SUITE FILE_PATH="coverage/Python_Learning$tsTclnt.coverage" NAME="tsTclnt Coverage Results" MODIFIED="1554813886278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
-    <SUITE FILE_PATH="coverage/Python_Learning$configparser_encapsulation.coverage" NAME="configparser_encapsulation Coverage Results" MODIFIED="1554780587554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Built-in module" />
-    <SUITE FILE_PATH="coverage/Python_Learning$soket_server2.coverage" NAME="soket_server2 Coverage Results" MODIFIED="1554802859191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
-    <SUITE FILE_PATH="coverage/Python_Learning$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1554964037878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Learning$chat_server.coverage" NAME="chat_server Coverage Results" MODIFIED="1555656648487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
-    <SUITE FILE_PATH="coverage/Python_Learning$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1556096202357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/锁" />
+    <SUITE FILE_PATH="coverage/Python_Learning$calculate_breakpoint.coverage" NAME="calculate_breakpoint Coverage Results" MODIFIED="1557300436980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类和对象" />
+    <SUITE FILE_PATH="coverage/Python_Learning$pic_mark.coverage" NAME="pic_mark Coverage Results" MODIFIED="1594600371445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/watermask" />
+    <SUITE FILE_PATH="coverage/Python_Learning$testmk2.coverage" NAME="testmk2 Coverage Results" MODIFIED="1594484285503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/watermask" />
+    <SUITE FILE_PATH="coverage/Python_Learning$hashlib_module.coverage" NAME="hashlib_module Coverage Results" MODIFIED="1554282899498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Built-in module" />
+    <SUITE FILE_PATH="coverage/Python_Learning$tsUclnt.coverage" NAME="tsUclnt Coverage Results" MODIFIED="1560332934084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
+    <SUITE FILE_PATH="coverage/Python_Learning$02_process_pipe.coverage" NAME="02-process-pipe Coverage Results" MODIFIED="1559207234560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/线程与并发" />
+    <SUITE FILE_PATH="coverage/Python_Learning$configparser_module.coverage" NAME="configparser_module Coverage Results" MODIFIED="1554780280424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Built-in module" />
+    <SUITE FILE_PATH="coverage/Python_Learning$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1555985779862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../jumpserver/apps" />
+    <SUITE FILE_PATH="coverage/Python_Learning$17_socket_tcp_client.coverage" NAME="17-socket-tcp-client Coverage Results" MODIFIED="1561090342458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
+    <SUITE FILE_PATH="coverage/Python_Learning$01_static_web_server.coverage" NAME="01-static_web_server Coverage Results" MODIFIED="1562680269901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Web_Server" />
+    <SUITE FILE_PATH="coverage/Python_Learning$3.coverage" NAME="多装饰器3 Coverage Results" MODIFIED="1557929205550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/装饰器与生成器" />
+    <SUITE FILE_PATH="coverage/Python_Learning$006_.coverage" NAME="实例006_斐波那契数列 Coverage Results" MODIFIED="1590247551640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/简单实例100个" />
+    <SUITE FILE_PATH="coverage/Python_Learning$014_.coverage" NAME="实例014_分解质因数 Coverage Results" MODIFIED="1591147002124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/简单实例100个" />
+    <SUITE FILE_PATH="coverage/Python_Learning$012_100200.coverage" NAME="实例012_100到200的素数 Coverage Results" MODIFIED="1590765425708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/简单实例100个" />
+    <SUITE FILE_PATH="coverage/Python_Learning$hello.coverage" NAME="hello Coverage Results" MODIFIED="1563451646728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Web_Server/wsgy_file" />
+    <SUITE FILE_PATH="coverage/Python_Learning$wrapped.coverage" NAME="wrapped Coverage Results" MODIFIED="1577159006926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/装饰器与生成器" />
+    <SUITE FILE_PATH="coverage/Python_Learning$socket_client2.coverage" NAME="socket_client2 Coverage Results" MODIFIED="1554802863692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
+    <SUITE FILE_PATH="coverage/Python_Learning$dns.coverage" NAME="dns Coverage Results" MODIFIED="1577699296490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/函数" />
+    <SUITE FILE_PATH="coverage/Python_Learning$jicheng.coverage" NAME="jicheng Coverage Results" MODIFIED="1571823636875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/函数" />
+    <SUITE FILE_PATH="coverage/Python_Learning$tsTservSS.coverage" NAME="tsTservSS Coverage Results" MODIFIED="1554819584059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
+    <SUITE FILE_PATH="coverage/Python_Learning$005_.coverage" NAME="实例005_三数排序 Coverage Results" MODIFIED="1590129837003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/简单实例100个" />
+    <SUITE FILE_PATH="coverage/Python_Learning$pdf_mask.coverage" NAME="pdf_mask Coverage Results" MODIFIED="1594955573870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/watermask" />
+    <SUITE FILE_PATH="coverage/Python_Learning$pickle_module.coverage" NAME="pickle_module Coverage Results" MODIFIED="1555730730974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Built-in module" />
+    <SUITE FILE_PATH="coverage/Python_Learning$18_socket_tcp_server_.coverage" NAME="18-socket-tcp-server-单进程非阻塞 Coverage Results" MODIFIED="1561124940013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
+    <SUITE FILE_PATH="coverage/Python_Learning$02_static_web_index.coverage" NAME="02-static_web_index Coverage Results" MODIFIED="1562806323048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Web_Server" />
+    <SUITE FILE_PATH="coverage/Python_Learning$jicheng2.coverage" NAME="jicheng2 Coverage Results" MODIFIED="1571884392446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/函数" />
+    <SUITE FILE_PATH="coverage/Python_Learning$015_.coverage" NAME="实例015_分数归档 Coverage Results" MODIFIED="1591257819220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/简单实例100个" />
+    <SUITE FILE_PATH="coverage/Python_Learning$class_object.coverage" NAME="class_object Coverage Results" MODIFIED="1555731117500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类和对象" />
+    <SUITE FILE_PATH="coverage/Python_Learning$settings.coverage" NAME="settings Coverage Results" MODIFIED="1566179234086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Django_Projects/test1/test1" />
+    <SUITE FILE_PATH="coverage/Python_Learning$watermark.coverage" NAME="watermark Coverage Results" MODIFIED="1594910550383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/watermask" />
+    <SUITE FILE_PATH="coverage/Python_Learning$06_MyWebServer.coverage" NAME="06.MyWebServer Coverage Results" MODIFIED="1563521595164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Web_Server" />
+    <SUITE FILE_PATH="coverage/Python_Learning$debug_breakpoint.coverage" NAME="debug_breakpoint Coverage Results" MODIFIED="1557217276846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类和对象" />
+    <SUITE FILE_PATH="coverage/Python_Learning$01_singleLinkList.coverage" NAME="01.singleLinkList Coverage Results" MODIFIED="1563972453049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Structure&amp;Algorithm" />
+    <SUITE FILE_PATH="coverage/Python_Learning$07_socket_udp_2.coverage" NAME="07-socket-udp-多线程聊天2 Coverage Results" MODIFIED="1560825758367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
+    <SUITE FILE_PATH="coverage/Python_Learning$tsUserv.coverage" NAME="tsUserv Coverage Results" MODIFIED="1554817583246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
+    <SUITE FILE_PATH="coverage/Python_Learning$007_copy.coverage" NAME="实例007_copy Coverage Results" MODIFIED="1590375859000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/简单实例100个" />
+    <SUITE FILE_PATH="coverage/Python_Learning$2.coverage" NAME="老王开枪2 Coverage Results" MODIFIED="1557157219736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类和对象" />
+    <SUITE FILE_PATH="coverage/Python_Learning$class_method.coverage" NAME="class_method Coverage Results" MODIFIED="1557216452014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类和对象" />
+    <SUITE FILE_PATH="coverage/Python_Learning$10_socket_udp1.coverage" NAME="10-socket-udp广播1 Coverage Results" MODIFIED="1560930352223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
+    <SUITE FILE_PATH="coverage/Python_Learning$008_.coverage" NAME="实例008_九九乘法表 Coverage Results" MODIFIED="1590460931113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/简单实例100个" />
+    <SUITE FILE_PATH="coverage/Python_Learning$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1566177879492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Python_Learning$queue_emples.coverage" NAME="queue_emples Coverage Results" MODIFIED="1556420199205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/队列" />
+    <SUITE FILE_PATH="coverage/Python_Learning$03_static_web_obj.coverage" NAME="03-static_web_obj Coverage Results" MODIFIED="1562896142886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Web_Server" />
+    <SUITE FILE_PATH="coverage/Python_Learning$multi_threads.coverage" NAME="multi_threads Coverage Results" MODIFIED="1556463486049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/线程与并发" />
+    <SUITE FILE_PATH="coverage/Python_Learning$016_.coverage" NAME="实例016_输出日期 Coverage Results" MODIFIED="1594354384713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/简单实例100个" />
+    <SUITE FILE_PATH="coverage/Python_Learning$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1554972058376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类和对象" />
+    <SUITE FILE_PATH="coverage/Python_Learning$19_socket_tcp_.coverage" NAME="19-socket-tcp-单进程非阻塞 Coverage Results" MODIFIED="1561124911099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
+    <SUITE FILE_PATH="coverage/Python_Learning$mysql_ops.coverage" NAME="mysql_ops Coverage Results" MODIFIED="1554964078860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Learning$01_socket_udp_test01.coverage" NAME="01-socket-udp-test01 Coverage Results" MODIFIED="1560476909034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
+    <SUITE FILE_PATH="coverage/Python_Learning$.coverage" NAME="函数 Coverage Results" MODIFIED="1589007584149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/函数" />
+    <SUITE FILE_PATH="coverage/Python_Learning$testmk1.coverage" NAME="testmk1 Coverage Results" MODIFIED="1594802656946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/watermask" />
+    <SUITE FILE_PATH="coverage/Python_Learning$diaoyong.coverage" NAME="diaoyong Coverage Results" MODIFIED="1571928236115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/函数" />
+    <SUITE FILE_PATH="coverage/Python_Learning$chpt3_1.coverage" NAME="chpt3-1 Coverage Results" MODIFIED="1588061054015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy" />
+    <SUITE FILE_PATH="coverage/Python_Learning$12_thread_safe01.coverage" NAME="12-thread-safe01 Coverage Results" MODIFIED="1559717222087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/线程与并发" />
+    <SUITE FILE_PATH="coverage/Python_Learning$013_.coverage" NAME="实例013_所有水仙花数 Coverage Results" MODIFIED="1590994323698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/简单实例100个" />
+    <SUITE FILE_PATH="coverage/Python_Learning$14_socket_udp.coverage" NAME="14-socket-基于udp广播的多人聊天室 Coverage Results" MODIFIED="1561016851113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
+    <SUITE FILE_PATH="coverage/Python_Learning$3_1.coverage" NAME="多装饰器3-1 Coverage Results" MODIFIED="1558944748469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/装饰器与生成器" />
+    <SUITE FILE_PATH="coverage/Python_Learning$singleInstance.coverage" NAME="singleInstance Coverage Results" MODIFIED="1573436714579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/函数" />
+    <SUITE FILE_PATH="coverage/Python_Learning$01_process_create.coverage" NAME="01-process-create Coverage Results" MODIFIED="1559204766732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/线程与并发" />
+    <SUITE FILE_PATH="coverage/Python_Learning$03_socket_udp_senddata.coverage" NAME="03-socket-udp-senddata Coverage Results" MODIFIED="1561018358528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
+    <SUITE FILE_PATH="coverage/Python_Learning$foo.coverage" NAME="foo Coverage Results" MODIFIED="1572532111219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/函数" />
+    <SUITE FILE_PATH="coverage/Python_Learning$soket_server2.coverage" NAME="soket_server2 Coverage Results" MODIFIED="1554802859191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
+    <SUITE FILE_PATH="coverage/Python_Learning$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1556259572202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/锁" />
+    <SUITE FILE_PATH="coverage/Python_Learning$04_static_web_WSGY.coverage" NAME="04-static_web_WSGY Coverage Results" MODIFIED="1563246222074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Web_Server" />
     <SUITE FILE_PATH="coverage/Python_Learning$run_server.coverage" NAME="run_server Coverage Results" MODIFIED="1555981365559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../jumpserver" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Python_Learning" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../jumpserver/apps/manage.py">
+        <entry file="file://$PROJECT_DIR$/watermask/testmk1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-304" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../jumpserver/apps/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/线程与并发/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="59" selection-start-line="59" selection-end-line="98" selection-end-column="17" />
+            <state relative-caret-position="1584">
+              <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
               <folding>
-                <element signature="e#1512#1523#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/线程与并发/multi_threads.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="144" column="3" selection-start-line="144" selection-start-column="3" selection-end-line="144" selection-end-column="3" />
-              <folding>
-                <element signature="e#229#240#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/锁/同步锁.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="99" column="7" lean-forward="true" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
-              <folding>
-                <element signature="e#1504#1520#0" expanded="true" />
+                <element signature="e#255#298#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/锁/tmp.py">
+        <entry file="file://$PROJECT_DIR$/watermask/pdf_mask.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="265">
+              <caret line="84" column="12" lean-forward="true" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/线程与并发/红绿灯.py">
+        <entry file="file://$PROJECT_DIR$/watermask/watermark.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+            <state relative-caret-position="2486">
+              <caret line="121" column="28" selection-start-line="121" selection-start-column="28" selection-end-line="121" selection-end-column="28" />
               <folding>
-                <element signature="e#236#252#0" expanded="true" />
+                <element signature="e#0#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,19 +206,44 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sname</find>
       <find>sage</find>
       <find>}</find>
       <find>tcpSerSock</find>
       <find>tcpCliSock</find>
       <find>Share</find>
       <find>event_oprm_door</find>
+      <find>old_wang</find>
+      <find>XiaoZhang</find>
+      <find>People</find>
+      <find>hit_enemy</find>
+      <find>hit</find>
+      <find>out2</find>
+      <find>queue</find>
+      <find>map</find>
+      <find>getFileName</find>
+      <find>getFilename</find>
+      <find>response_body</find>
+      <find>requestHeaderLine</find>
+      <find>_point</find>
+      <find>AutoF</find>
+      <find>AutoField</find>
+      <find>date_hierarchy</find>
+      <find>render</find>
+      <find>fieldsets</find>
+      <find>fieldset</find>
+      <find>short_description</find>
+      <find>choices</find>
+      <find>SESSION</find>
+      <find>oo</find>
+      <find>next</find>
     </findStrings>
     <replaceStrings>
       <replace>name</replace>
@@ -173,10 +252,26 @@
       <replace>udpCliSock</replace>
       <replace>buff</replace>
       <replace>event_open_door</replace>
+      <replace>LaoWang</replace>
+      <replace>xiaozhang</replace>
+      <replace>Person</replace>
+      <replace>hit</replace>
+      <replace>hit_enemy</replace>
+      <replace>B</replace>
+      <replace>q</replace>
+      <replace>getFilename</replace>
+      <replace>file_name</replace>
+      <replace>response_body</replace>
+      <replace>file_data</replace>
+      <replace>request_first_line</replace>
+      <replace>_head</replace>
+      <replace>return render</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_COMMON_BRANCH" value="master" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
@@ -184,60 +279,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/内置模块/shelve_module.py" />
-        <option value="$PROJECT_DIR$/Built-in module/shelve_module.py" />
-        <option value="$PROJECT_DIR$/Built-in module/userinfo.txt" />
-        <option value="$PROJECT_DIR$/Built-in module/DATA" />
-        <option value="$PROJECT_DIR$/Built-in module/login_test.py" />
-        <option value="$PROJECT_DIR$/diff_num.py" />
-        <option value="$PROJECT_DIR$/mysql_ops.py" />
-        <option value="$PROJECT_DIR$/Built-in module/hashlib_module.py" />
-        <option value="$PROJECT_DIR$/socket/soket_server2.py" />
-        <option value="$PROJECT_DIR$/Built-in module/ini" />
-        <option value="$PROJECT_DIR$/Built-in module/configparser_module.py" />
-        <option value="$PROJECT_DIR$/Built-in module/configparser_encapsulation.py" />
-        <option value="$PROJECT_DIR$/socket/socket_client2.py" />
-        <option value="$PROJECT_DIR$/socket/soket_server.py" />
-        <option value="$PROJECT_DIR$/socket/socket_client.py" />
-        <option value="$PROJECT_DIR$/socket/tsTclnt.py" />
-        <option value="$PROJECT_DIR$/socket/tsUclnt.py" />
-        <option value="$PROJECT_DIR$/socket/tsUserv.py" />
-        <option value="$PROJECT_DIR$/socket/tsTserv.py" />
-        <option value="$PROJECT_DIR$/socket/socketserver_test.py" />
-        <option value="$PROJECT_DIR$/socket/tsTclntSS.py" />
-        <option value="$PROJECT_DIR$/socket/tsTservSS.py" />
-        <option value="$PROJECT_DIR$/线程/multi_threads.py" />
-        <option value="$PROJECT_DIR$/装饰器/多装饰器.py" />
-        <option value="$PROJECT_DIR$/装饰器/多装饰器3.py" />
-        <option value="$PROJECT_DIR$/装饰器/多装饰器2.py" />
-        <option value="$PROJECT_DIR$/Built-in module/logger_module.py" />
-        <option value="$PROJECT_DIR$/类和对象/test1.py" />
-        <option value="$PROJECT_DIR$/类和对象/basic_test.py" />
-        <option value="$PROJECT_DIR$/类和对象/test2.py" />
-        <option value="$PROJECT_DIR$/类和对象/上下文.py" />
-        <option value="$PROJECT_DIR$/生成器.py" />
+        <option value="$PROJECT_DIR$/../Django_Projects/test1/templates/disp.html" />
+        <option value="$PROJECT_DIR$/../Django_Projects/test1/templates/index_t.html" />
+        <option value="$PROJECT_DIR$/../Django_Projects/test1/templates/about.html" />
+        <option value="$PROJECT_DIR$/../Django_Projects/test1/templates/list.html" />
+        <option value="$PROJECT_DIR$/../Django_Projects/test1/test1/urls.py" />
+        <option value="$PROJECT_DIR$/../Django_Projects/test1/booktest/views.py" />
+        <option value="$PROJECT_DIR$/../Django_Projects/test1/booktest/urls.py" />
+        <option value="$PROJECT_DIR$/../Django_Projects/test1/templates/login.html" />
+        <option value="$PROJECT_DIR$/../Django_Projects/cookie_session/cookie_session/settings.py" />
+        <option value="$PROJECT_DIR$/../Django_Projects/cookie_session/cookie_session/urls.py" />
+        <option value="$PROJECT_DIR$/../Django_Projects/cookie_session/templates/order.html" />
+        <option value="$PROJECT_DIR$/../Django_Projects/cookie_session/templates/shopping.html" />
+        <option value="$PROJECT_DIR$/../Django_Projects/cookie_session/mysite/urls.py" />
+        <option value="$PROJECT_DIR$/../Django_Projects/cookie_session/templates/login.html" />
+        <option value="$PROJECT_DIR$/../Django_Projects/cookie_session/mysite/views.py" />
+        <option value="$PROJECT_DIR$/函数/jicheng.py" />
+        <option value="$PROJECT_DIR$/函数/jicheng2.py" />
+        <option value="$PROJECT_DIR$/函数/diaoyong.py" />
+        <option value="$PROJECT_DIR$/函数/foo.py" />
+        <option value="$PROJECT_DIR$/函数/singleInstance.py" />
+        <option value="$PROJECT_DIR$/运维/basic.py" />
+        <option value="$PROJECT_DIR$/装饰器与生成器/多装饰器.py" />
+        <option value="$PROJECT_DIR$/装饰器与生成器/wrapped.py" />
+        <option value="$PROJECT_DIR$/函数/dns.py" />
+        <option value="$PROJECT_DIR$/函数/abc.js" />
+        <option value="$PROJECT_DIR$/函数/plot.py" />
+        <option value="$PROJECT_DIR$/scrapy/chpt3-1.py" />
         <option value="$PROJECT_DIR$/函数/函数.py" />
-        <option value="$PROJECT_DIR$/类和对象/conn_server.py" />
-        <option value="$PROJECT_DIR$/类和对象/conn_client.py" />
-        <option value="$PROJECT_DIR$/socket/chat_server.py" />
-        <option value="$PROJECT_DIR$/socket/chat_client.py" />
-        <option value="$PROJECT_DIR$/类和对象/class_object.py" />
-        <option value="$PROJECT_DIR$/线程与并发/multi_processing.py" />
-        <option value="$PROJECT_DIR$/log" />
-        <option value="$PROJECT_DIR$/装饰器与生成器/base_yield.py" />
-        <option value="$PROJECT_DIR$/线程与并发/红绿灯.py" />
-        <option value="$PROJECT_DIR$/../jumpserver/apps/__init__.py" />
-        <option value="$PROJECT_DIR$/线程与并发/test.py" />
-        <option value="$PROJECT_DIR$/线程与并发/multi_threads.py" />
-        <option value="$PROJECT_DIR$/锁/同步锁.py" />
-        <option value="$PROJECT_DIR$/锁/tmp.py" />
+        <option value="$PROJECT_DIR$/简单实例100个/实例003_完全平方数.py" />
+        <option value="$PROJECT_DIR$/简单实例100个/实例002_个税计算.py" />
+        <option value="$PROJECT_DIR$/简单实例100个/实例001_数字组合.py" />
+        <option value="$PROJECT_DIR$/简单实例100个/实例005_三数排序.py" />
+        <option value="$PROJECT_DIR$/简单实例100个/实例006_斐波那契数列.py" />
+        <option value="$PROJECT_DIR$/简单实例100个/实例007_copy.py" />
+        <option value="$PROJECT_DIR$/简单实例100个/实例008_九九乘法表.py" />
+        <option value="$PROJECT_DIR$/简单实例100个/实例004_这天第几天.py" />
+        <option value="$PROJECT_DIR$/简单实例100个/实例009_暂停一秒输出.py" />
+        <option value="$PROJECT_DIR$/简单实例100个/实例010_给人看的时间.py" />
+        <option value="$PROJECT_DIR$/简单实例100个/实例011_养兔子.py" />
+        <option value="$PROJECT_DIR$/简单实例100个/实例012_100到200的素数.py" />
+        <option value="$PROJECT_DIR$/简单实例100个/实例013_所有水仙花数.py" />
+        <option value="$PROJECT_DIR$/简单实例100个/实例014_分解质因数.py" />
+        <option value="$PROJECT_DIR$/简单实例100个/实例015_分数归档.py" />
+        <option value="$PROJECT_DIR$/简单实例100个/实例016_输出日期.py" />
+        <option value="$PROJECT_DIR$/简单实例100个/实例017_字符串构成.py" />
+        <option value="$PROJECT_DIR$/watermask/testmk2.py" />
+        <option value="$PROJECT_DIR$/watermask/pic_mark.py" />
+        <option value="$PROJECT_DIR$/watermask/pic-wwww.py" />
+        <option value="$PROJECT_DIR$/watermask/testmk1.py" />
+        <option value="$PROJECT_DIR$/watermask/watermark.py" />
+        <option value="$PROJECT_DIR$/watermask/pdf_mask.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="719" />
-    <option name="width" value="608" />
-    <option name="height" value="721" />
+    <option name="x" value="576" />
+    <option name="y" value="28" />
+    <option name="width" value="762" />
+    <option name="height" value="593" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -247,6 +347,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,27 +358,36 @@
             <path>
               <item name="Python_Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="锁" type="462c0819:PsiDirectoryNode" />
+              <item name="watermask" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Django_Projects" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Python_Data\Projects\Django_Projects\cookie_session\templates" />
+      <recent name="E:\Python_Data\Projects\Django_Projects\test1\templates" />
+      <recent name="E:\Python_Data\Projects\Web_Server" />
       <recent name="E:\Python_Data\Projects\Python_Learning\装饰器与生成器" />
       <recent name="E:\Python_Data\Projects\Python_Learning\装饰器" />
-      <recent name="E:\Python_Data\Projects\Python_Learning\socket" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Python_Data\Projects\Django_Projects\test1\templates" />
+      <recent name="E:\Python_Data\Projects\test1\templates" />
+      <recent name="E:\Python_Data\Projects\test1\templates\app1" />
+      <recent name="E:\Python_Data\Projects\Web_Server" />
+      <recent name="E:\Python_Data\Projects\Web_Server\wsgy_file" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -292,8 +402,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tmp">
-    <configuration name="同步锁" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.pdf_mask">
+    <configuration name="pdf_mask" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -301,12 +411,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/锁" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/watermask" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/锁/同步锁.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/watermask/pdf_mask.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -315,7 +425,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="生成器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pic_mark" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -323,12 +433,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/watermask" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/生成器.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/watermask/pic_mark.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -337,29 +447,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="jumpserver" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../jumpserver/apps" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../jumpserver/apps/__init__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="multi_threads" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testmk1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -367,12 +455,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/线程与并发" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/watermask" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/线程与并发/multi_threads.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/watermask/testmk1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -381,7 +469,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testmk2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -389,12 +477,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/线程与并发" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/watermask" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/线程与并发/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/watermask/testmk2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -403,7 +491,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tmp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="watermark" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -411,12 +499,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/锁" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/watermask" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/锁/tmp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/watermask/watermark.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -425,18 +513,73 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="cookie_session" type="Python.DjangoServer" factoryName="Django server">
+      <module name="cookie_session" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1" type="Python.DjangoServer" factoryName="Django server">
+      <module name="test1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.test1" />
+      <item itemvalue="Django server.cookie_session" />
+      <item itemvalue="Python.testmk1" />
+      <item itemvalue="Python.pdf_mask" />
+      <item itemvalue="Python.testmk2" />
+      <item itemvalue="Python.pic_mark" />
+      <item itemvalue="Python.watermark" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tmp" />
-        <item itemvalue="Python.同步锁" />
-        <item itemvalue="Python.multi_threads" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.pdf_mask" />
+        <item itemvalue="Python.watermark" />
+        <item itemvalue="Python.testmk1" />
+        <item itemvalue="Python.pic_mark" />
+        <item itemvalue="Python.testmk2" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\a\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -446,7 +589,39 @@
       <option name="presentableId" value="Default" />
       <updated>1554176786177</updated>
       <workItem from="1554176787478" duration="79494000" />
-      <workItem from="1555037251013" duration="109380000" />
+      <workItem from="1555037251013" duration="120510000" />
+      <workItem from="1556205155633" duration="31500000" />
+      <workItem from="1557016942551" duration="52410000" />
+      <workItem from="1557795225991" duration="17764000" />
+      <workItem from="1557908247794" duration="16332000" />
+      <workItem from="1559134730572" duration="19291000" />
+      <workItem from="1559525209824" duration="19375000" />
+      <workItem from="1560218785888" duration="20632000" />
+      <workItem from="1560927785749" duration="4201000" />
+      <workItem from="1560995999932" duration="10997000" />
+      <workItem from="1561080449540" duration="12872000" />
+      <workItem from="1561450888649" duration="866000" />
+      <workItem from="1562059850428" duration="10746000" />
+      <workItem from="1562678356489" duration="29433000" />
+      <workItem from="1563154372289" duration="6290000" />
+      <workItem from="1563352417001" duration="42269000" />
+      <workItem from="1563758743322" duration="12985000" />
+      <workItem from="1565140237627" duration="31924000" />
+      <workItem from="1565750127519" duration="12315000" />
+      <workItem from="1565924812540" duration="237000" />
+      <workItem from="1565925061821" duration="7159000" />
+      <workItem from="1566013707531" duration="5488000" />
+      <workItem from="1566178675289" duration="52332000" />
+      <workItem from="1571822409347" duration="15285000" />
+      <workItem from="1573304527433" duration="2705000" />
+      <workItem from="1576479724410" duration="18896000" />
+      <workItem from="1576826605741" duration="13604000" />
+      <workItem from="1579139905256" duration="1289000" />
+      <workItem from="1587881535680" duration="18374000" />
+      <workItem from="1589788288601" duration="52336000" />
+      <workItem from="1594354119822" duration="40834000" />
+      <workItem from="1594794915292" duration="9046000" />
+      <workItem from="1595558073458" duration="1194000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1554176959627</created>
@@ -504,41 +679,113 @@
       <option name="project" value="LOCAL" />
       <updated>1555816636518</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="20190506 update">
+      <created>1557152420588</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557152420589</updated>
+    </task>
+    <task id="LOCAL-00010" summary="20190809update">
+      <created>1565334641108</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565334641108</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Test__ - 2019.08.19 at 09h 24m 43s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188874000" />
+    <option name="totallyTimeSpent" value="790985000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1380" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.12934947" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.24962178" />
+      <window_info id="Favorites" order="1" side_tool="true" weight="0.32980332" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.16060606" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4969743" weight="0.29354838" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7704545" visible="true" weight="0.3437014" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49848714" weight="0.5209953" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4969743" weight="0.10852713" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6210287" weight="0.37984496" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49772727" weight="0.4744186" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3255814" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.51059" weight="0.2596774" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.51059" weight="0.25581396" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.22954546" side_tool="true" weight="0.4967742" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" weight="0.3281493" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3281493" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3192133" side_tool="true" weight="0.23255815" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.6106061" weight="0.1891473" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.33833334" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" sideWeight="0.49848714" weight="0.32868218" />
+      <window_info anchor="bottom" id="File Transfer" order="14" sideWeight="0.68078667" weight="0.23255815" />
+      <window_info anchor="bottom" id="SVN Repositories" order="15" sideWeight="0.49924356" weight="0.32868218" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24962178" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.022727273" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
@@ -549,18 +796,388 @@
     <MESSAGE value="20190412 update" />
     <MESSAGE value="20190420 update" />
     <MESSAGE value="20190421 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="20190421 update" />
+    <MESSAGE value="20190506 update" />
+    <MESSAGE value="20190809update" />
+    <MESSAGE value="20190817_django_test1_first_commit" />
+    <MESSAGE value="20190817 django_test first commit" />
+    <MESSAGE value="20190817 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="20190817 update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/类和对象/autosalser.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器与生成器/多装饰器3-1.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器与生成器/多装饰器3-1.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器与生成器/多装饰器3-1.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器与生成器/多装饰器3-1.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器与生成器/多装饰器3-1.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器与生成器/多装饰器3-1.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器与生成器/多装饰器3-1.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器与生成器/多装饰器3-1.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器与生成器/多装饰器3-1.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器与生成器/多装饰器3-1.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器与生成器/多装饰器3-1.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器与生成器/多装饰器3-1.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器与生成器/多装饰器3-1.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器与生成器/多装饰器3-1.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器与生成器/多装饰器3-1.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器与生成器/多装饰器3-1.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器与生成器/多装饰器3-1.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器与生成器/多装饰器3-1.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器与生成器/多装饰器3-1.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/线程与并发/21-thread-Rlock-test.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint type="python-line" />
+      </breakpoints-defaults>
+      <breakpoints-dialog>
+        <breakpoints-dialog>
+          <selected-grouping-rules>
+            <grouping-rule id="by-file" />
+          </selected-grouping-rules>
+        </breakpoints-dialog>
+      </breakpoints-dialog>
       <default-breakpoints>
-        <breakpoint enabled="true" type="jinja2-exception">
-          <properties exception="TemplateError" />
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="wrapper_B" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>a=6</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>t=9</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>all</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="watch">
+      <expression>
+        <expression-string>wrapper_B</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="breakpointLogExpression">
+      <expression>
+        <expression-string>t1 = threading.Thread(target=producer)
+        t2 = threading.Thread(target=consumer)
+        t1.start()
+        t2.start()
+        t1.join()
+        t2.join()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="setValue">
       <expression>
         <expression-string>'afadfa'</expression-string>
@@ -585,332 +1202,323 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/类和对象/test2.py">
+    <entry file="file://D:/Python/python37/Lib/site-packages/dns/resolver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="152">
+          <caret line="298" column="17" selection-start-line="298" selection-start-column="13" selection-end-line="298" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/类和对象/test1.py">
+    <entry file="file://$PROJECT_DIR$/函数/abc.js" />
+    <entry file="file://$PROJECT_DIR$/函数/dns.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2592">
-          <caret line="96" column="21" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+        <state relative-caret-position="352">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/生成器.py">
+    <entry file="file://$PROJECT_DIR$/函数/jicheng2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/类和对象/上下文.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/类和对象/类的相关定义.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/multiprocessing/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="75" column="72" lean-forward="true" selection-start-line="75" selection-start-column="72" selection-end-line="75" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/类和对象/conn_client.py">
+    <entry file="file://D:/Python/python37/Lib/site-packages/bs4/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/python37/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1898">
+          <caret line="173" column="8" selection-start-line="173" selection-start-column="8" selection-end-line="173" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/函数/plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2904">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
           <folding>
-            <element signature="e#254#299#0" expanded="true" />
+            <element signature="e#2391#2422#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/类和对象/conn_server.py">
+    <entry file="file://$PROJECT_DIR$/scrapy/chpt3-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="78" />
+        <state relative-caret-position="1606">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
           <folding>
-            <element signature="e#227#274#0" expanded="true" />
+            <element signature="e#224#233#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/装饰器与生成器/多装饰器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/装饰器与生成器/wrapped.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/函数/foo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="40" selection-start-line="42" selection-end-line="44" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/函数/jicheng.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/cookie_session/manage.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/cookie_session/templates/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/函数/函数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="175" column="18" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/类和对象/people.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket/soket_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket/tsTclnt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python/python37/Lib/socket.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="205" column="51" selection-start-line="205" selection-start-column="39" selection-end-line="205" selection-end-column="51" />
+        <state relative-caret-position="353">
+          <caret line="442" column="33" selection-start-line="442" selection-start-column="33" selection-end-line="442" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/965896262/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="488" column="4" selection-start-line="488" selection-start-column="4" selection-end-line="488" selection-end-column="4" />
+        <state relative-caret-position="-1975">
+          <caret line="4338" column="6" selection-start-line="4338" selection-start-column="6" selection-end-line="4338" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socket/chat_server.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_comm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-362">
-          <caret line="36" selection-start-line="36" selection-end-line="65" selection-end-column="20" />
+        <state relative-caret-position="107">
+          <caret line="392" selection-start-line="392" selection-end-line="392" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socket/chat_client.py">
+    <entry file="file://$PROJECT_DIR$/简单实例100个/实例001_数字组合.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="57" column="3" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
+        <state relative-caret-position="110">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/格式化字符串.py">
+    <entry file="file://$PROJECT_DIR$/简单实例100个/实例002_个税计算.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Built-in module/pkdFile.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Built-in module/new 4.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Built-in module/mysql.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Built-in module/pickle_module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+        <state relative-caret-position="-198">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Built-in module/xml解析.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Built-in module/yaml解析.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Built-in module/sys_module.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Built-in module/subprocess_module.py">
+    <entry file="file://$PROJECT_DIR$/简单实例100个/实例003_完全平方数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="264">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/类和对象/basic_test.py">
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/281253262/FileRecv/hour_avg_monitor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        <state relative-caret-position="-2068">
+          <caret line="90" column="54" lean-forward="true" selection-start-line="90" selection-start-column="54" selection-end-line="90" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/类和对象/class_object.py">
+    <entry file="file://$PROJECT_DIR$/简单实例100个/实例005_三数排序.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1987">
-          <caret line="105" column="10" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
+        <state relative-caret-position="189">
+          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/简单实例100个/实例006_斐波那契数列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/简单实例100个/实例007_copy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/简单实例100个/实例004_这天第几天.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="12" column="63" selection-start-line="11" selection-start-column="8" selection-end-line="12" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/965896262/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-212">
+          <caret line="172" column="4" selection-start-line="172" selection-start-column="4" selection-end-line="172" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/简单实例100个/实例008_九九乘法表.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/简单实例100个/实例011_养兔子.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/简单实例100个/实例012_100到200的素数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/简单实例100个/实例013_所有水仙花数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/简单实例100个/实例014_分解质因数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/简单实例100个/实例015_分数归档.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/简单实例100个/实例009_暂停一秒输出.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/简单实例100个/实例010_给人看的时间.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/简单实例100个/实例017_字符串构成.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/简单实例100个/实例016_输出日期.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/watermask/taibei.jpg" />
+    <entry file="file://$PROJECT_DIR$/watermask/watermark.png" />
+    <entry file="file://$PROJECT_DIR$/watermask/pic_mark.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="39" column="52" lean-forward="true" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
           <folding>
-            <element signature="e#895#1416#1" />
+            <element signature="e#17#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/线程与并发/multi_processing.py">
+    <entry file="file://$PROJECT_DIR$/watermask/testmk2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
+        <state relative-caret-position="-176">
+          <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
           <folding>
-            <element signature="e#354#885#1" />
-            <element signature="e#947#1567#1" />
-            <element signature="e#3414#4672#1" />
+            <element signature="e#177#186#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log">
+    <entry file="file://$PROJECT_DIR$/watermask/mark.png" />
+    <entry file="file://$PROJECT_DIR$/watermask/Snipaste_2019-05-19_22-02-25.png" />
+    <entry file="file://$PROJECT_DIR$/watermask/Snipaste_2020-01-22_17-45-46.png" />
+    <entry file="file://$PROJECT_DIR$/watermask/Snipaste_2019-05-18_23-54-06.png" />
+    <entry file="file://$PROJECT_DIR$/watermask/shenzhen.jpg" />
+    <entry file="file://$PROJECT_DIR$/watermask/shanghai.jpg" />
+    <entry file="file://$PROJECT_DIR$/watermask/pic-wwww.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/装饰器与生成器/log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/装饰器与生成器/base_yield.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="184" selection-start-line="184" selection-end-line="184" />
+        <state relative-caret-position="341">
+          <caret line="42" column="54" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="54" />
           <folding>
-            <element signature="e#3122#3428#1" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/965896262/sys.py">
+    <entry file="file://D:/Python/python37/Lib/site-packages/PIL/ImageDraw.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="163" column="4" selection-start-line="163" selection-start-column="4" selection-end-line="163" selection-end-column="4" />
+        <state relative-caret-position="-2118">
+          <caret line="411" column="8" selection-start-line="411" selection-start-column="8" selection-end-line="411" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jumpserver/run_server.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../jumpserver/apps/authentication/signals_handlers.py">
+    <entry file="file://$PROJECT_DIR$/watermask/testmk1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1701">
+        <state relative-caret-position="1584">
+          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#255#298#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jumpserver/apps/authentication/signals.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../jumpserver/apps/authentication/serializers.py">
+    <entry file="file://$PROJECT_DIR$/watermask/watermark.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../jumpserver/apps/authentication/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
+        <state relative-caret-position="2486">
+          <caret line="121" column="28" selection-start-line="121" selection-start-column="28" selection-end-line="121" selection-end-column="28" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jumpserver/apps/authentication/const.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../jumpserver/apps/authentication/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../jumpserver/apps/authentication/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../jumpserver/config_example.yml">
+    <entry file="file://$PROJECT_DIR$/watermask/pdf_mask.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1795" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../jumpserver/apps/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../jumpserver/apps/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-304" />
-      </provider>
-    </entry>
-    <entry file="file://D:/Python/python37/Lib/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="747" column="21" lean-forward="true" selection-start-line="747" selection-start-column="21" selection-end-line="747" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/线程与并发/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="59" selection-start-line="59" selection-end-line="98" selection-end-column="17" />
-          <folding>
-            <element signature="e#1512#1523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/线程与并发/红绿灯.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
-          <folding>
-            <element signature="e#236#252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/线程与并发/multi_threads.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="144" column="3" selection-start-line="144" selection-start-column="3" selection-end-line="144" selection-end-column="3" />
-          <folding>
-            <element signature="e#229#240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/threading.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/锁/同步锁.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="99" column="7" lean-forward="true" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
-          <folding>
-            <element signature="e#1504#1520#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/锁/tmp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="265">
+          <caret line="84" column="12" lean-forward="true" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="12" />
         </state>
       </provider>
     </entry>

@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Django_Projects/.idea/Django_Projects.iml" filepath="$PROJECT_DIR$/../Django_Projects/.idea/Django_Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MyWebFramwork/.idea/MyWebFramwork.iml" filepath="$PROJECT_DIR$/../MyWebFramwork/.idea/MyWebFramwork.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Python_Learning.iml" filepath="$PROJECT_DIR$/.idea/Python_Learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Structure&amp;Algorithm/.idea/Structure&amp;Algorithm.iml" filepath="$PROJECT_DIR$/../Structure&amp;Algorithm/.idea/Structure&amp;Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Web_Server/.idea/Web_Server.iml" filepath="$PROJECT_DIR$/../Web_Server/.idea/Web_Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Django_Projects/cookie_session/.idea/cookie_session.iml" filepath="$PROJECT_DIR$/../Django_Projects/cookie_session/.idea/cookie_session.iml" />
       <module fileurl="file://$PROJECT_DIR$/../jumpserver/.idea/jumpserver.iml" filepath="$PROJECT_DIR$/../jumpserver/.idea/jumpserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Django_Projects/test1/.idea/test1.iml" filepath="$PROJECT_DIR$/../Django_Projects/test1/.idea/test1.iml" />
     </modules>
   </component>
 </project>

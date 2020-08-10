@@ -368,7 +368,7 @@ if __name__ == '__main__':
 # -*- 进程池 【案例9】-*- #
 # 说明：
 # 共享数据与同步
-# 通常，进程之间彼此是完全孤立的，唯一的通信方式是队列过管道。
+# 通常，进程之间彼此是完全孤立的，唯一的通信方式是队列或管道。
 # 但可以使用两个对象来表示共享数据
 # 这些对象使用了共享内存（mmap模块）使访问多个进程成为可能
 
@@ -688,22 +688,46 @@ if __name__ == '__main__':
 """
 
 
-import threading
-from time import sleep
+# import threading
+# from time import sleep
+#
+# def func():
+#     block.acquire()
+#     print("The Thread of %s" % threading.get_ident())
+#     sleep(2)
+#     block.release()
+#
+#
+# if __name__ == '__main__':
+#     block = threading.BoundedSemaphore(5)
+#     for i in range(20):
+#         t = threading.Thread(target=func)
+#         t.start()
 
-def func():
-    block.acquire()
-    print("The Thread of %s" % threading.get_ident())
-    sleep(2)
-    block.release()
 
+import multiprocessing
+
+def test(queue, n):
+    while not queue.full() :
+        for i in range(n):
+            print("【%s】: %d 入列" % (multiprocessing.current_process().pid, i))
+            queue.put(i)
+
+def recv(queue):
+    while not queue.empty():
+        for i in range(queue.qsize()):
+            print("【%s】: %d 出列" % (multiprocessing.current_process().pid, queue.get()))
 
 if __name__ == '__main__':
-    block = threading.BoundedSemaphore(5)
-    for i in range(20):
-        t = threading.Thread(target=func)
-        t.start()
 
+    # queue = multiprocessing.Queue()
+    queue = multiprocessing.Manager().Queue(5)
+    pool = multiprocessing.Pool()
+
+    pool.apply_async(test, args=(queue, 10))
+    pool.apply_async(recv, args=(queue, ))
+    pool.close()
+    pool.join()
 
 
 

@@ -5,6 +5,12 @@
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="jumpserver" />
+    <orderEntry type="module" module-name="Web_Server" />
+    <orderEntry type="module" module-name="MyWebFramwork" />
+    <orderEntry type="module" module-name="Structure&amp;Algorithm" />
+    <orderEntry type="module" module-name="test1" />
+    <orderEntry type="module" module-name="Django_Projects" />
+    <orderEntry type="module" module-name="cookie_session" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

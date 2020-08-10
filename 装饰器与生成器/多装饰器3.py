@@ -10,51 +10,53 @@
 __author__ = 'a'
 
 
-def wrapper_out1(func):
-    print('--out11--')
+def wrapper_A(func):
+    print('--A1--')
 
     def inner1(*args, **kwargs):
-        print("--in11--")
+        print("--11--")
         ret = func(*args, **kwargs)
-        print("--in12--")
+        print("--12--")
         return ret
 
-    print("--out12--")
+    print("--A2--")
     return inner1
 
 
-def wrapper_out2(func):
-    print('--out21--')
+def wrapper_B(func):
+    print('--B1--')
 
     def inner2(*args, **kwargs):
-        print("--in21--")
+        print("--21--")
         ret = func(*args, **kwargs)
-        print("--in22--")
+        print("--22--")
         return ret
 
-    print("--out22")
+    print("--B2")
     return inner2
 
 
-@wrapper_out2
-@wrapper_out1
+@wrapper_B
+@wrapper_A
 def test():
     print("--test--")
     return 1 * 2
 
 
 if __name__ == '__main__':
-    test()
+    # test()
+    print(test())
 
 
 """
---out11--
---out12--
---out21--
---out22--
---in21--
---in11--
+--A1--
+--A2--
+--B1--
+--B2
+--21--
+--11--
 --test--
---in12--
---in22--
+--12--
+--22--
+2
 """

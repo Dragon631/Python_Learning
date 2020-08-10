@@ -1,67 +1,90 @@
-#-*- coding:utf-8 -*-
+from concurrent.futures import ThreadPoolExecutor
+
 import threading
 import time
-"""
-# 创建一个线程锁
-mylock = threading.Lock()
-
-tickets = range(1,10)
- 
-def buy_ticket(station):
-    while True:
-        mylock.acquire()     #加线程锁
-        if len(tickets) == 0:
-            mylock.release()  #释放线程锁， 不要带锁结束线程
-        break
-    ticket = tickets[-1]
-    time.sleep(1)
-    print("%s买到票No.%d" %(station, ticket))
-    del tickets[-1]
-    mylock.release()      #释放线程锁
-    time.sleep(1)
- 
-class MyThread(threading.Thread):
-    def __init__(self, station):
-        threading.Thread.__init__(self)
-        self.station = station
-        #线程启动后，会执行self.run()方法
-    def run(self):
-        buy_ticket(self.station)
- 
-
- 
-# 创建新线程t1
-t1 = MyThread("广州")
-t2 = MyThread("深圳")
- 
-t1.start()    #启动线程
-t2.start()
-print("线程启动完毕")
- 
-print('end.')
-
-"""
-
-def foo():
-    global num
-    if s.acquire():
-        print("get num:%s"%num)
-        num -= 1
-        time.sleep(1)
-        s.release()
-    print("result:%s" % threading.active_count())
 
 
-# lock = threading.Semaphore(2)
-num = 10
-l = list()
-s = threading.BoundedSemaphore(2)
-for i in range(10):
+def action(max):
+	# time.sleep(1)
+	print("%s start ... " % threading.currentThread().name)
+	sum = 0	
+	for i in range(max):
+		sum += i
+	return sum
+	# print(sum)
+def get_result(future):
+	return future.result()
 
-    t = threading.Thread(target=foo)
-    t.start()
-    l.append(t)
+def customer():
+	r = ''
+	while True:
+		n = yield r
+		if not n:
+			return
+		print("cumstomer: cum---%d---" %n)
+		r = '200 OK'
 
-for j in l:
-    j.join()
+def productor(c):
+	c.send(None)
+	n = 0
+	while n < 5:
+		n += 1	
+		print("productor: pro---%d---" % n)
+		ret = c.send(n)
+		print("product result: %s" % ret)
+	# c.close()
+
+
+def main():
+	# tpool = ThreadPoolExecutor(4)
+	# start_time = time.time()
+	# future1 = tpool.submit(action,100000000)
+	# future2 = tpool.submit(action,100000000)
+	# future3 = tpool.submit(action,100000000)
+	# future4 = tpool.submit(action,100000000)
+	# future1.add_done_callback(get_result)
+	# future2.add_done_callback(get_result)
+	# future3.add_done_callback(get_result)
+	# future4.add_done_callback(get_result)
+	# print(future1.done())
+	# print(future2.result())
+	# print(future2.done())
+	# print(future3.result())
+	# print(future3.done())
+	# print(future4.result())
+	# print(future4.done())
+	# tpool.shutdown()
+
+	# t1 = threading.Thread(target=action,args=(100000000,))
+	# t1.start()	
+	# t2 = threading.Thread(target=action,args=(100000000,))
+	# t2.start()
+	# t3 = threading.Thread(target=action,args=(100000000,))
+	# t3.start()	
+	# t4 = threading.Thread(target=action,args=(100000000,))
+	# t4.start()
+	# t1.join()
+	# t2.join()
+	# t3.join()
+	# t4.join()
+	
+	# end_time = time.time()
+	# elapse = end_time - start_time
+	# print(elapse)
+	s=("C语言中文网是中国领先的C语言程序设计专业网站，\n"
+	"提供C语言入门经典教程、C语言编译器、C语言函数手册等。")
+
+	# print(s)
+
+	c = customer()
+	productor(c)
+
+
+if __name__ == "__main__":
+	main()
+
+
+
+
+
 
